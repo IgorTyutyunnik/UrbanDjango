@@ -1,0 +1,1 @@
+from .views import my_index
