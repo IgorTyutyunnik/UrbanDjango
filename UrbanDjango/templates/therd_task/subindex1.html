@@ -7,15 +7,9 @@
 <body>
 <h1>Игры</h1>
 <ul>
-    <li>Mass Effect
-        <button>купить</button>
-    </li>
-    <li>Dragon Age
-        <button>купить</button>
-    </li>
-    <li>Cyberpank 2077
-        <button>купить</button>
-    </li>
+    {%for i in games%}
+    <li> {{i}}  <button>купить</button> </li>
+    {%endfor%}
 </ul>
 <form action="..">
     <button> <h3>На главную</h3></button>
